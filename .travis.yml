@@ -5,6 +5,12 @@ install:
   - pip install requests
   - pip install --upgrade urllib3
 
+addons:
+  apt:
+    packages:
+      - libssl-dev
+
+
 # command to run tests
 script:
 - python3 -m unittest assignmentTest.py
