@@ -11,7 +11,7 @@ class TestGetRepoInfo(unittest.TestCase):
         self.assertEqual(get_repo_info("wrong_id"), {}, 'Wrong id is invalid')
         self.assertEqual(get_repo_info("!@#"), {}, 'Special characters in id are invalid')
     def test3(self):
-        self.assertEqual(get_repo_info("hello"), {}, 'User has no repositories')
+        self.assertEqual(get_repo_info("hello956"), {}, 'User has no repositories')
 
 if __name__ == "__main__":
     print("Running unit tests")
