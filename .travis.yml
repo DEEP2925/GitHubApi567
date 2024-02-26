@@ -3,7 +3,7 @@ python:
   - "3.9.6"
 install:
   - pip install requests
-  - pip install --upgrade urllib3
+  - pip install urllib3==1.26.7
 
 addons:
   apt:
