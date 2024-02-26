@@ -1,6 +1,6 @@
 language: python
 python:
-  - "Python 3.9"
+  - "3.9.6"
 install:
   - pip install requests
 # command to run tests
