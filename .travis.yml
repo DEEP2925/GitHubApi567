@@ -2,7 +2,7 @@ language: python
 python:
   - "3.9.6"
 install:
-  - pip install requests
+  - pip3 install requests
 # command to run tests
 script:
 - python3 -m unittest assignmentTest.py
